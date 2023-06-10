@@ -1,0 +1,2214 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: rgb(11, 11, 32);
+    scroll-behavior: smooth;
+}
+a{
+    color: white;
+    gap: 20%;
+    text-decoration: none;
+} 
+.logo-text{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.logo-text:hover{
+color: navy;
+font-size: 35px;
+transition: 0.5s;
+}
+.logo-container{
+    font-size: 50px;
+    color: white;
+    display: inline;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: 65vh;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    box-shadow: 4px black;
+    border: 2px solid;
+    border-color: navy;
+    width: 35vh;
+    height: 10vh;
+    border-radius: 5vh;
+    color: white; 
+    gap: 10px;
+}   
+.logo-container:hover{
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.1;
+    color: black;
+    width: 37vh;
+    height: 11vh;
+    transition: 1s;
+}
+.navbar-text{
+    float: left;
+}
+.ankor{
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    padding-top: 20%;
+}
+nav{
+    background: navy;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    
+}
+.g{
+    padding-top: 120px;
+}
+.nav2{
+    color: white;
+    font-size: large;
+    display: flex;
+   flex-direction: row;
+   padding-left: 450px;
+   align-items: center;
+}
+.img1{
+    border-radius: 25px;
+    transform: rotate(2deg);
+    height: 60%;
+    width: 40%;
+    background: rgb(11, 11, 32);
+}
+.img1:hover{
+ transform: rotate(0deg);
+ background: navy;
+}
+ul{
+      text-align: center;
+   color: white;
+   font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+}
+h3{
+    color: #4db5ff;
+    font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background: navy;
+  height: 10%;
+  width: 35%;
+  text-align: center;
+/* text-align: justify;
+text-align: center; */
+margin: 10%;
+}
+.table1{
+    padding-top: 9%;
+}
+.container2{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background: navy;
+  height: 10%;
+  width: 35%;
+  text-align: center;
+margin: 10%;
+}
+
+.container2:hover{
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff; 
+}
+
+.container1:hover{
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff; 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#btn1{
+    width: 40vh;
+    height: 20vh;
+    margin: auto;
+    border-radius: 8px;
+    background-color: rgb(11, 11, 32);
+    border: 1px solid; color: navy;
+    margin-left: 680px;
+    margin-bottom: 10vh;
+}
+#btn1:hover{
+    border-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: white;
+    caret-color: black;
+}
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #4db5ff;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 240, 240);
+    text-align: center;
+    padding-top: 70px;
+}
+.input1{
+    width: 60%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;color: navy;
+}
+.input1:hover{
+    background-color: white;
+    color: black;
+}
+.input2{
+    width: 60%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;color: navy;
+}
+.input2:hover{
+    background-color: white;
+    color: black;
+}
+.input3{
+    width: 60%;
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;color: navy;
+}
+.input3:hover{
+    background-color: white;
+    color: black;
+}
+#btn{
+    height: 50px;
+    width: 20%;
+    margin-left: 200px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff;
+    color: #4db5ff;
+    cursor: pointer;
+
+}
+#btn:hover{
+background-color: white;
+color: black;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    border-radius: 12px;
+    margin-top: 120px;
+}
+
+.me{
+    color: white;
+}
+.me:hover{
+    color: black;
+}
+.ee{
+    background-color: #4db5ff;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+.registry1{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry2{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry3{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry4{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry5{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry6{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry7{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry8{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry9{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry10{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry11{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.registry12{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+.btn2{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; 
+    width: 100px;
+    color: navy;
+    height: 7vh;
+    color: white;
+}
+.btn2:hover{
+  background-color: white;
+  color:  rgb(11, 11, 32);
+}
+
+.registration1{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 150px;
+    height: 10vh;
+}
+.registry{
+ margin-left: 450px;
+ margin-top: 100px;
+}
+#footer2{
+    margin-top: 100%;   
+}
+
+.btn3{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; color: #4db5ff;
+    width: 7%;
+    height: 5vh;
+    display: block;
+}
+.btn4{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; color: #4db5ff;
+    width: 7%;
+    height: 5vh;
+    display: block;
+}
+.btn3:hover{
+    background:white;
+    color: #4db5ff;
+}
+.btn4:hover{
+    background:white;
+    color: #4db5ff;
+
+}
+.wrapper3{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 10px;
+}
+.welcome{
+    width: 60%;
+    height: 70vh;
+    margin-left: 350px;
+}
+.welcome:hover{
+    border: 4px solid; color: #4db5ff;
+    border-radius: 15px;
+
+}
+
+.form3{
+    margin-left: 400px;
+    margin-top:10%;
+}
+
+.footer6{
+    width: 50%;
+
+
+}
+.helpful{
+    width: 100%;
+    height: 40vh;
+    background-color: #4db5ff;  
+}
+.helpful:hover{
+    background: rgb(11, 11, 32);
+    border: 2px solid; color: navy; 
+}
+#check{
+    display: none;
+}
+.icon{
+    display: none;
+}
+
+
+
+
+/*  big screen big screen big screen big screen v big screen big screen big screenbig screenbig screenbig screenbig screenbig screenbig screenbig screen */
+
+
+@media (max-width: 1800px) and (min-width: 1025px) {
+   
+    
+
+    body{
+        background: rgb(11, 11, 32);
+        scroll-behavior: smooth;
+    }
+    a{
+        color: white;
+        gap: 20%;
+        text-decoration: none;
+    }    
+    .ankor{
+        display: flex;
+        flex-direction: row;
+        gap: 35%;
+        padding-top: 20%;
+    }
+    nav{
+        background: navy;
+        height: 15vh;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        
+    }
+    .g{
+        padding-top: 120px;
+    }
+    .nav2{
+        color: white;
+        font-size: large;
+        display: flex;
+       flex-direction: row;
+       padding-left: 450px;
+       align-items: center;
+    }
+    .img1{
+        border-radius: 25px;
+        transform: rotate(2deg);
+        height: 60%;
+        width: 40%;
+        background: rgb(11, 11, 32);
+    }
+    .img1:hover{
+     transform: rotate(0deg);
+     background: navy;
+    }
+    ul{
+          text-align: center;
+       color: white;
+       font-size: large;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    h3{
+        color: #4db5ff;
+        font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+    }
+    .container1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 25px;
+      background: navy;
+      height: 10%;
+      width: 35%;
+      text-align: center;
+    /* text-align: justify;
+    text-align: center; */
+    margin: 10%;
+    }
+    .table1{
+        padding-top: 9%;
+    }
+    .container2{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 25px;
+      background: navy;
+      height: 10%;
+      width: 35%;
+      text-align: center;
+    margin: 10%;
+    }
+    
+    .container2:hover{
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff; 
+    }
+    
+    .container1:hover{
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff; 
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    #btn1{
+        width: 20%;
+        height: 12vh;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 1px solid; color: navy;
+        margin-left: 680px;
+        margin-bottom: 10%;
+    }
+    #btn1:hover{
+        border-color: white;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: white;
+        caret-color: black;
+    }
+    footer{
+        width: 100%;
+        height: 25vh;
+        background-color: #4db5ff;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 240, 240);
+        text-align: center;
+        padding-top: 70px;
+    }
+    .input1{
+        width: 60%;
+        height: 70px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input1:hover{
+        background-color: white;
+        color: black;
+    }
+    .input2{
+        width: 60%;
+        height: 100px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input2:hover{
+        background-color: white;
+        color: black;
+    }
+    .input3{
+        width: 60%;
+        height: 180px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input3:hover{
+        background-color: white;
+        color: black;
+    }
+    #btn{
+        height: 50px;
+        width: 20%;
+        margin-left: 200px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff;
+        color: #4db5ff;
+        cursor: pointer;
+    
+    }
+    #btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 18vh;
+        border-radius: 12px;
+        margin-top: 120px;
+    }
+    
+    .me{
+        color: white;
+    }
+    .me:hover{
+        color: black;
+    }
+    .ee{
+        background-color: #4db5ff;
+        margin: auto;
+        padding-bottom: 100px;
+    
+    }
+    .registry1{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry2{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry3{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry4{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry5{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry6{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry7{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry8{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry9{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry10{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry11{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry12{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .btn2{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; 
+        width: 100px;
+        color: navy;
+        height: 7vh;
+        color: white;
+    }
+    .btn2:hover{
+      background-color: white;
+      color:  rgb(11, 11, 32);
+    }
+    
+    .registration1{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 150px;
+        height: 10vh;
+    }
+    .registry{
+     margin-left: 16vh;
+     margin-top: 100px;
+    }
+    #footer2{
+        margin-top: 100%;   
+    }
+    
+    .btn3{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; color: #4db5ff;
+        width: 7%;
+        height: 5vh;
+        display: block;
+    }
+    .btn4{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; color: #4db5ff;
+        width: 7%;
+        height: 5vh;
+        display: block;
+    }
+    .btn3:hover{
+        background:white;
+        color: #4db5ff;
+    }
+    .btn4:hover{
+        background:white;
+        color: #4db5ff;
+    
+    }
+    .wrapper3{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-left: 10px;
+    }
+    .welcome{
+        width: 60%;
+        height: 70vh;
+        margin-left: 350px;
+    }
+    .welcome:hover{
+        border: 4px solid; color: #4db5ff;
+        border-radius: 15px;
+    
+    }
+    
+    .form3{
+        margin-left: 16vh;
+        margin-top:10%;
+    }
+    
+    .footer6{
+        width: 100%;
+    
+    
+    }
+    .helpful{
+        width: 100%;
+        height: 20vh;
+        background-color: #4db5ff;  
+    }
+    .helpful:hover{
+        background: rgb(11, 11, 32);
+        border: 2px solid; color: navy; 
+    }
+    #check {
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+
+}
+
+
+/* laptop size laptop size laptop size laptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop sizelaptop size */
+@media (max-width: 1024) and (min-width: 959px) {
+
+        body{
+            background: rgb(11, 11, 32);
+            scroll-behavior: smooth;
+        }
+        /* li{
+          
+        } */
+    
+        a{
+            color: white;
+            gap: 5vh;
+            text-decoration: none;
+            padding-left: 300px;
+        }    
+        .ankor{
+            display: flex;
+            flex-direction: row;
+            gap: 35%;
+            padding-top: 9vh;
+            float: left;
+        }
+        nav{
+            background: navy;
+            height: 15vh;
+            width: 100%;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            padding-left: 300px;
+            
+        }
+        .g{
+            padding-top: 120px;
+        }
+        .nav2{
+            color: white;
+            font-size: large;
+            display: flex;
+           flex-direction: row;
+          padding: 300px;
+
+        }
+        .img1{
+            border-radius: 25px;
+            transform: rotate(2deg);
+            height: 60%;
+            width: 40%;
+            background: rgb(11, 11, 32);
+        }
+        .img1:hover{
+         transform: rotate(0deg);
+         background: navy;
+        }
+        ul{
+              text-align: center;
+           color: white;
+           font-size: large;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        h3{
+            color: #4db5ff;
+            font-weight: bold;
+             font-family: Arial, Helvetica, sans-serif;
+             text-align: center;
+        }
+        .container1{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 25px;
+          background: navy;
+          height: 10%;
+          width: 35%;
+          text-align: center;
+        /* text-align: justify;
+        text-align: center; */
+        margin: 10%;
+        }
+        .table1{
+            padding-top: 9%;
+        }
+        .container2{
+            display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 25px;
+          background: navy;
+          height: 10%;
+          width: 35%;
+          text-align: center;
+        margin: 10%;
+        }
+        
+        .container2:hover{
+            background-color: rgb(11, 11, 32);
+            border: 2px solid; color: #4db5ff; 
+        }
+        
+        .container1:hover{
+            background-color: rgb(11, 11, 32);
+            border: 2px solid; color: #4db5ff; 
+        }
+        
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+        }
+        #btn1{
+            width: 40vh;
+            height: 20vh;
+            margin: auto;
+            border-radius: 8px;
+            background-color: rgb(11, 11, 32);
+            border: 1px solid; color: navy;
+            margin-left: 680px;
+            margin-bottom: 10vh;
+        }
+        #btn1:hover{
+            border-color: white;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            background-color: white;
+            caret-color: black;
+        }
+        footer{
+            width: 100%;
+            height: 15vh;
+            background-color: #4db5ff;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 240, 240);
+            text-align: center;
+            padding-top: 70px;
+        }
+        .input1{
+            width: 60%;
+            height: 70px;
+            border-radius: 10px;
+            background-color: rgb(11, 11, 32);
+            border: 2px solid;color: navy;
+        }
+        .input1:hover{
+            background-color: white;
+            color: black;
+        }
+        .input2{
+            width: 60%;
+            height: 100px;
+            border-radius: 10px;
+            background-color: rgb(11, 11, 32);
+            border: 2px solid;color: navy;
+        }
+        .input2:hover{
+            background-color: white;
+            color: black;
+        }
+        .input3{
+            width: 60%;
+            height: 180px;
+            border-radius: 10px;
+            background-color: rgb(11, 11, 32);
+            border: 2px solid;color: navy;
+        }
+        .input3:hover{
+            background-color: white;
+            color: black;
+        }
+        #btn{
+            height: 50px;
+            width: 20%;
+            margin-left: 200px;
+            background-color: rgb(11, 11, 32);
+            border: 2px solid; color: #4db5ff;
+            color: #4db5ff;
+            cursor: pointer;
+        
+        }
+        #btn:hover{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        cursor: pointer;
+        }
+        
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin-left: 18vh;
+            border-radius: 12px;
+            margin-top: 120px;
+        }
+        
+        .me{
+            color: white;
+        }
+        .me:hover{
+            color: black;
+        }
+        .ee{
+            background-color: #4db5ff;
+            margin: auto;
+            padding-bottom: 100px;
+        
+        }
+        .registry1{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry2{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry3{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry4{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry5{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry6{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry7{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry8{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry9{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry10{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry11{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .registry12{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 50%;
+            height: 10vh;
+        }
+        .btn2{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid; 
+            width: 100px;
+            color: navy;
+            height: 7vh;
+            color: white;
+        }
+        .btn2:hover{
+          background-color: white;
+          color:  rgb(11, 11, 32);
+        }
+        
+        .registration1{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid;
+            border-color: navy;
+            color: white;
+            width: 150px;
+            height: 10vh;
+        }
+        .registry{
+         margin-left: 16vh;
+         margin-top: 100px;
+        }
+        #footer2{
+            margin-top: 100%;   
+        }
+        
+        .btn3{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid; color: #4db5ff;
+            width: 7%;
+            height: 5vh;
+            display: block;
+        }
+        .btn4{
+            background-color: rgb(11, 11, 32);
+            border-radius: 7px;
+            border: 2px solid; color: #4db5ff;
+            width: 7%;
+            height: 5vh;
+            display: block;
+        }
+        .btn3:hover{
+            background:white;
+            color: #4db5ff;
+        }
+        .btn4:hover{
+            background:white;
+            color: #4db5ff;
+        
+        }
+        .wrapper3{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            margin-left: 10px;
+        }
+        .welcome{
+            width: 60%;
+            height: 70vh;
+            margin-left: 350px;
+        }
+        .welcome:hover{
+            border: 4px solid; color: #4db5ff;
+            border-radius: 15px;
+        
+        }
+        
+        .form3{
+            margin-left: 16vh;
+            margin-top:10%;
+        }
+        
+        .footer6{
+            width: 100%;
+        
+        
+        }
+        .helpful{
+            width: 100%;
+            height: 20vh;
+            background-color: #4db5ff;  
+        }
+        .helpful:hover{
+            background: rgb(11, 11, 32);
+            border: 2px solid; color: navy; 
+        }
+        #check {
+            display: none;
+        }
+        .icon{
+            display: none;
+        }
+    
+    }
+
+    /* ipad size ipad size ipad sizeipad sizeipad size ipad sizeipad sizeipad size ipad size v v ipad sizeipad sizeipad size ipad sizeipad sizeipad sizeipad sizeipad sizeipad sizeipad sizeipad size */
+
+@media (max-width: 960px) and (min-width: 701px) {
+    
+
+
+    body{
+        background: rgb(11, 11, 32);
+        scroll-behavior: smooth;
+        text-align: center;
+    }
+    /* li{
+      
+    } */
+
+    a{
+        color: white;
+        gap: 20%;
+        text-decoration: none;
+        padding-left: 300px;
+    }    
+    .ankor{
+        display: flex;
+        flex-direction: row;
+        gap: 35%;
+        padding-top: 9vh;
+        float: left;
+    }
+    nav{
+        background: navy;
+        height: 15vh;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        padding-left: 300px;
+        
+    }
+    .g{
+        padding-top: 120px;
+    }
+    .nav2{
+        color: white;
+        font-size: large;
+        display: flex;
+       flex-direction: row;
+      padding: 300px;
+
+    }
+    .img1{
+        border-radius: 25px;
+        transform: rotate(2deg);
+        height: 60%;
+        width: 40%;
+        background: rgb(11, 11, 32);
+    }
+    .img1:hover{
+     transform: rotate(0deg);
+     background: navy;
+    }
+    ul{
+          text-align: center;
+       color: white;
+       font-size: large;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    h3{
+        color: #4db5ff;
+        font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+    }
+    .container1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 25px;
+      background: navy;
+      height: 10%;
+      width: 35%;
+      text-align: center;
+    /* text-align: justify;
+    text-align: center; */
+    margin: 10%;
+    }
+    .table1{
+        padding-top: 9%;
+    }
+    .container2{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 25px;
+      background: navy;
+      height: 10%;
+      width: 35%;
+      text-align: center;
+    margin: 10%;
+    }
+    
+    .container2:hover{
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff; 
+    }
+    
+    .container1:hover{
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff; 
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    #btn1{
+        width: 40vh;
+        height: 20vh;
+        margin: auto;
+        border-radius: 8px;
+        background-color: rgb(11, 11, 32);
+        border: 1px solid; color: navy;
+        margin-left: 680px;
+        margin-bottom: 10vh;
+    }
+    #btn1:hover{
+        border-color: white;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: white;
+        caret-color: black;
+    }
+    footer{
+        width: 100%;
+        height: 15vh;
+        background-color: #4db5ff;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 240, 240);
+        text-align: center;
+        padding-top: 70px;
+    }
+    .input1{
+        width: 60%;
+        height: 70px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input1:hover{
+        background-color: white;
+        color: black;
+    }
+    .input2{
+        width: 60%;
+        height: 100px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input2:hover{
+        background-color: white;
+        color: black;
+    }
+    .input3{
+        width: 60%;
+        height: 180px;
+        border-radius: 10px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid;color: navy;
+    }
+    .input3:hover{
+        background-color: white;
+        color: black;
+    }
+    #btn{
+        height: 50px;
+        width: 20%;
+        margin-left: 200px;
+        background-color: rgb(11, 11, 32);
+        border: 2px solid; color: #4db5ff;
+        color: #4db5ff;
+        cursor: pointer;
+    
+    }
+    #btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 18vh;
+        border-radius: 12px;
+        margin-top: 120px;
+    }
+    
+    .me{
+        color: white;
+    }
+    .me:hover{
+        color: black;
+    }
+    .ee{
+        background-color: #4db5ff;
+        margin: auto;
+        padding-bottom: 100px;
+    
+    }
+    .registry1{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry2{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry3{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry4{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry5{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry6{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry7{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry8{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry9{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry10{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry11{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .registry12{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 50%;
+        height: 10vh;
+    }
+    .btn2{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; 
+        width: 100px;
+        color: navy;
+        height: 7vh;
+        color: white;
+    }
+    .btn2:hover{
+      background-color: white;
+      color:  rgb(11, 11, 32);
+    }
+    
+    .registration1{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid;
+        border-color: navy;
+        color: white;
+        width: 150px;
+        height: 10vh;
+    }
+    .registry{
+     margin-left: 16vh;
+     margin-top: 100px;
+    }
+    #footer2{
+        margin-top: 100%;   
+    }
+    
+    .btn3{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; color: #4db5ff;
+        width: 7%;
+        height: 5vh;
+        display: block;
+    }
+    .btn4{
+        background-color: rgb(11, 11, 32);
+        border-radius: 7px;
+        border: 2px solid; color: #4db5ff;
+        width: 7%;
+        height: 5vh;
+        display: block;
+    }
+    .btn3:hover{
+        background:white;
+        color: #4db5ff;
+    }
+    .btn4:hover{
+        background:white;
+        color: #4db5ff;
+    
+    }
+    .wrapper3{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-left: 10px;
+    }
+    .welcome{
+        width: 60%;
+        height: 70vh;
+        margin-left: 350px;
+    }
+    .welcome:hover{
+        border: 4px solid; color: #4db5ff;
+        border-radius: 15px;
+    
+    }
+    
+    .form3{
+        margin-left: 16vh;
+        margin-top:10%;
+    }
+    
+    .footer6{
+        width: 100%;
+    
+    
+    }
+    .helpful{
+        width: 100%;
+        height: 20vh;
+        background-color: #4db5ff;  
+    }
+    .helpful:hover{
+        background: rgb(11, 11, 32);
+        border: 2px solid; color: navy; 
+    }
+    #check {
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+
+
+
+
+}
+    
+
+
+/* 400px  400px  400px 400px  400px  400px  400px 400px 400px 400px 400px  400px  v 400px  vv 400px v400px 400px  400px 400px 400px 400px 400px 400px 400px 400px 400px */
+@media (max-width: 400px) and (min-width: 0px) {
+    
+/* 11111nav abr section navbar section navbar section 11111111*/
+
+body{
+    background: rgb(11, 11, 32);
+    scroll-behavior: smooth;
+    width: 100%;
+}
+.icon{
+    display: block;
+    font-size: 40px;
+    color: white;
+   float: left;
+   margin-right: 25px;
+   margin-top: 15px;
+   line-height: 10vh;
+}
+.icon:hover{
+    border: 2px solid;
+    border-color: rgb(213, 205, 205);
+    border-radius: 6px;
+}
+a{
+    color: white;
+    gap: 20%;
+    text-decoration: none;
+    text-align: center;
+}  
+
+.ankor{
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    padding-top: 20%;
+}
+
+nav{
+    background: navy;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+li{
+    display: block;
+    text-align: center;
+    margin: 2px 0;
+}
+
+.g{
+    padding-top: 120px;
+}
+
+.nav2{
+    width: 100%;
+    color: white;
+    font-size: large;
+    display: flex;
+   flex-direction: row;
+   padding-left: 450px;
+   align-items: center;
+}
+
+.img1{
+    border-radius: 25px;
+    transform: rotate(0deg);
+    height: 60%;
+    width: 40%;
+    background: rgb(11, 11, 32);
+}
+.img1:hover{
+ transform: rotate(0deg);
+}
+ul{
+    position: fixed;
+    left: -100%;
+    top: 60vh;
+    transition: 0.5s;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+   color: white;
+   font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+}
+h3{
+    font-size: 10px;
+    color: #4db5ff;
+    font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  height: 7vh;
+  width: 12vh;
+  text-align: center;
+/* text-align: justify;
+text-align: center; */
+}
+.self-summary{
+    font-size: 10px;
+    padding: 7% 2% 0 0;
+}
+
+#text-paragraph{
+    font-size: 10px;
+    text-align: center;
+    display: inline;
+}
+#text-paragraph-2{
+    font-size: 5px
+}
+.text-paragraph-3{
+    font-size: 5px;
+    text-align: center;
+}
+.table1{
+    padding-top: 9%;
+}
+
+.container2{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: navy;
+  height: 7vh;
+  width: 11vh;
+  text-align: center;
+}
+
+.container2:hover{
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff; 
+}
+
+.container1:hover{
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff; 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#btn1{
+    width: 15vh;
+    height: 6vh;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 32);
+    border: 1px solid; color: navy;
+    margin-left: 85px;
+    margin-bottom: 10%;
+    font-size: 10px;
+}
+#btn1:hover{
+    border-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: white;
+    caret-color: black;
+}
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #4db5ff;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 240, 240);
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+/* contact contact section contact section contact section contact section */
+
+.input1{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;
+    border-color: navy;
+}
+.input1:hover{
+    border: 2px solid;
+    border-color: navy;
+transition: 0.5s;
+
+}
+.input2{
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;
+    border-color: navy;
+}
+.input2:hover{
+    border: 2px solid;
+    border-color: navy;
+transition: 0.5s;
+
+}
+.input3{
+    width:30vh;
+    height: 15vh;
+    border-radius: 5px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid;color: navy;
+}
+.input3:hover{
+    border: 2px solid;
+    border-color: navy;
+transition: 0.5s;
+
+}
+#btn{
+    height: 30px;
+    width: 20%;
+    font-size: 6px;
+    margin-left: 55px;
+    background-color: rgb(11, 11, 32);
+    border: 2px solid; color: #4db5ff;
+    color: #4db5ff;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+#btn:hover{
+background-color: white;
+color: black;
+border-radius: 15px;
+cursor: pointer;
+}
+
+
+
+.form{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+ margin-left: 45px;
+ border-radius: 12px;
+    margin-top: 120px;
+    gap: 10vh;
+}
+
+#me{
+    color: white;
+}
+#me:hover{
+    color: black;
+}
+.ee{
+    background-color: #4db5ff;
+    margin: auto;
+    padding-bottom: 100px;
+    font-size: 10px;
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!registration !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! registration registration section resgisteration section */
+
+#label-text{
+    font-size: 7px;
+    font-weight: lighter;
+
+}
+
+
+.registry2{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry3{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry4{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry5{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry6{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry7{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;color: navy;
+    width: 24vh;
+    height: 6vh;
+}
+.registry8{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry9{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry10{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry11{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.registry12{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+}
+.btn2{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; 
+    width: 100px;
+    color: navy;
+    height: 7vh;
+    color: white;
+}
+.btn2:hover{
+  background-color: white;
+  color:  rgb(11, 11, 32);
+}
+
+.registration1{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 150px;
+    height: 10vh;
+}
+.registry{
+    margin-left: 60px;
+    /* margin-top: 100vh; */
+}
+/* !!!!!!!!! end end end end end ned end edne dne dne dne dne dne dne dne dne end ne ne cne dnendnne ne dn end enne ndcne nen ne dnend end!!!!!! */
+#footer2{
+    margin-top: 100%;  
+    font-size: 10px; 
+}
+
+.btn3{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; color: #4db5ff;
+    width: 7%;
+    height: 5vh;
+
+}
+
+.btn3:hover{
+    background:white;
+    color: #4db5ff;
+}
+
+.btn4{
+    background-color: rgb(11, 11, 32);
+    border-radius: 7px;
+    border: 2px solid; color: #4db5ff;
+    width: 7%;
+    height: 5vh;
+
+}
+
+.btn4:hover{
+    background:white;
+    color: #4db5ff;
+
+}
+.wrapper3{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 10px;
+}
+
+.welcome{
+    width: 60%;
+    height: 70vh;
+    margin-left: 350px;
+}
+.welcome:hover{
+    border: 4px solid; color: #4db5ff;
+    border-radius: 15px;
+
+}
+/* llllllllllllllllllllllooooooooooooooooooooooooggggggggggggggggiiiiiiiiiiiiiiiiiiinnnnnnnnnnnnnnnn page login page */
+
+.registry1{
+    background-color: rgb(11, 11, 32);
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: navy;
+    color: white;
+    width: 24vh;
+    height: 6vh;
+    
+}
+
+
+
+
+.form3{
+    display: flex;
+    flex-direction: column;
+ margin-left: 45px;
+ border-radius: 12px;
+    margin-top: 120px;
+    gap: 10vh;
+}
+
+.footer6{
+    width: 100%;
+    font-size: 5px;
+
+}
+/* eeeeeeeeeeeeeeend dn end endend nend endne dne dnend endennd end endnen dnend eden dnendeend end  */
+
+.helpful{
+    width: 100%;
+    height: 40vh;
+    background-color: #4db5ff;  
+}
+
+.helpful:hover{
+    background: rgb(11, 11, 32);
+    border: 2px solid; color: navy; 
+}
+
+
+#checked~ul{
+    left: 0;
+}
+}
